@@ -4,9 +4,7 @@ import theme from '../libs/theme'
 import Fonts from '../components/fonts'
 
 const Website = ({ Component, pageProps, router }) => {
-  console.log('Component: ', Component)
-  console.log('pageProps: ', pageProps)
-  console.log('route: ', router)
+  console.log(Component)
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
