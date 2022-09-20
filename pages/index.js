@@ -77,7 +77,7 @@ const Page = () => {
                 colorScheme={useColorModeValue('green', 'blue')}
                 my={5}
               >
-                My Works
+                My Projects
               </Button>
             </NextLink>
           </Box>
