@@ -1,13 +1,4 @@
-import {
-  Container,
-  Box,
-  Heading,
-  SimpleGrid,
-  Divider,
-  List,
-  ListItem,
-  Link
-} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbFindMyHome from '../public/images/findMyHome.png'
@@ -15,7 +6,6 @@ import thumbGoEvent from '../public/images/goEvent.png'
 import thumbGEMWebInterface from '../public/images/gemWebInterface.png'
 import thumbEcommerce from '../public/images/ecommerce.png'
 import Layout from '../components/layouts/article'
-import { Meta } from '../components/work'
 
 const Works = () => {
   return (

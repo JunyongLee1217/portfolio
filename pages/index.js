@@ -6,7 +6,6 @@ import {
   Image,
   useColorModeValue,
   Button,
-  SimpleGrid,
   List,
   ListItem,
   Icon
@@ -18,7 +17,6 @@ import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
 
 const Page = () => {
   return (
@@ -57,20 +55,20 @@ const Page = () => {
             About
           </Heading>
           <Paragraph>
-            Hello, I am Jun Yong, and I'm passionate about building things that
-            can help people solve their problems. My journey started when I
+            Hello, I am Jun Yong, and I&apos;m passionate about building things
+            that can help people solve their problems. My journey started when I
             majored in MIS (Management Information Systems) at Korea University.
             I was fascinated by the case studies that improved business
             processes and performance by using technology, which inspired me to
             pursue a career in software development.
           </Paragraph>
           <Paragraph>
-            During my Master's program in Computer Science at NMSU, I've
-            cultivated my passion for coding and problem-solving. Recently, I'm
-            intrigued by building web applications using Javascript/Typesript
-            based technologies such as React, Next.js, and Node.js(with
-            Express). I'm also interested in learning new technologies and
-            frameworks.
+            During my Master&apos;s program in Computer Science at NMSU,
+            I&apos;ve cultivated my passion for coding and problem-solving.
+            Recently, I&apos;m intrigued by building web applications using
+            Javascript/Typesript based technologies such as React, Next.js, and
+            Node.js(with Express). I&apos;m also interested in learning new
+            technologies and frameworks.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>

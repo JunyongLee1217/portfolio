@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Flex } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { StackTag } from '../components/work'
 
@@ -38,7 +38,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail, stackInfo }) => (
         <Box my={2}>
           {stackInfo &&
             stackInfo.map(stack => (
-              <StackTag color="red" variant="solid">
+              <StackTag color="red" variant="solid" key={stack}>
                 {stack}
               </StackTag>
             ))}
